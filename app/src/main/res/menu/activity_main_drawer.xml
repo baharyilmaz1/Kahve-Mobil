@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kahve"
+            android:icon="@drawable/kahveler"
+            android:title="Kahveler" />
+        <item
+            android:id="@+id/nav_kahvemakinesi"
+            android:icon="@drawable/kahvemakinesi"
+            android:title="Kahve Makineleri" />
+        <item
+            android:id="@+id/nav_matara"
+            android:icon="@drawable/matara"
+            android:title="Mataralar" />
+        <item
+            android:id="@+id/nav_mug"
+            android:icon="@drawable/mug"
+            android:title="Muglar" />
+        <item
+            android:id="@+id/nav_termos"
+            android:icon="@drawable/termos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:title="Termoslar"
+            tools:ignore="DuplicateIds" />
+
+    </group>
+
+    <item android:title="üye">
+        <menu>
+            <item
+                android:id="@+id/nav_sepet"
+                android:icon="@drawable/sepet"
+                android:title="Sepet" />
+            <item
+                android:id="@+id/nav_kullanici"
+                android:icon="@drawable/kullanici"
+                android:layout_width="match_parent"
+                android:title="Üye Bilgileri" />
+        </menu>
+    </item>
+
+</menu>
