@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/arkaplan1"
+
+
+    >
+
+    <EditText
+        android:id="@+id/kullaniciadi1"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:layout_marginBottom="266dp"
+        android:background="#8b4513"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_stat_user"
+        android:inputType="textPersonName"
+        android:text="username" />
+
+    <EditText
+        android:id="@+id/parola1"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:layout_marginBottom="215dp"
+        android:drawableLeft="@drawable/ic_stat_pass"
+        android:background="#8b4513"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="password" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
+        android:text="LOGİN"
+        android:background="#CD853F"
+       />
+
+    <Button
+        android:id="@+id/btnyenikayit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="83dp"
+        android:text="KAYIT OL"
+        android:background="#8b4513"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:text="LİTTLE COFFEE SHOP"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+
+</RelativeLayout>

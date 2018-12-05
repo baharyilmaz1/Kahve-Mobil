@@ -16,11 +16,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
 
+
         implements NavigationView.OnNavigationItemSelectedListener {
+    Button btnkahve;
+    Button btnmakine;
+    Button btnmatara;
+    Button btnmug;
+    Button btntermos;
 
 private Toolbar toolbar;
     @Override
@@ -28,6 +35,39 @@ private Toolbar toolbar;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ((Button)findViewById(R.id.btnkahve)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,kahveFragment.class));
+            }
+        });
+
+        ((Button)findViewById(R.id.btnmakine)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,kahvemakinesiFragment.class));
+            }
+        });
+
+        ((Button)findViewById(R.id.btnmug)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,mugFragment.class));
+            }
+        });
+
+        ((Button)findViewById(R.id.btnmatara)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,mataraFragment.class));
+            }
+        });
+        ((Button)findViewById(R.id.btntermos)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,termosFragment.class));
+            }
+        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

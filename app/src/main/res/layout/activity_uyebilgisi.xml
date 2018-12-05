@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan2">
+
+    <ImageView
+        android:id="@+id/kullanici"
+        android:layout_width="80dp"
+        android:layout_height="77dp"
+        app:srcCompat="@mipmap/ic_person"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/bilgi"
+        android:layout_width="126dp"
+        android:layout_height="20dp"
+        android:text="BİLGİLERİM"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AD        :"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:id="@+id/soyad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOYAD     :"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:id="@+id/telefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TELEFON   :"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <EditText
+        android:id="@+id/adtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <EditText
+        android:id="@+id/sayadtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <EditText
+        android:id="@+id/telefontext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/btnduzenle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="düzenle"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".anasayfa">
-
+    tools:context=".anasayfa"
+    android:layout_centerInParent="true">
 </android.support.constraint.ConstraintLayout>
